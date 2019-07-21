@@ -17,6 +17,7 @@
       "children": [
         "dept:physics",
         "dept:math",
+        "itservices",
         "servicedesk_kandi",
         "main-printer-5131418798",
         "main-printer-5113813861",
@@ -1176,6 +1177,8 @@
         "elepaja",
         "agrid-printer-5389688266",
         "agrid-printer-5389688267",
+        "factory",
+        "agrid-havajava",
         "agrid-A",
         "agrid-B",
         "agrid-CN",
@@ -2226,6 +2229,7 @@
       ],
       "children": [
         "dept:physics",
+        "otanano",
         "r009-printer-5171375893",
         "SCI",
         "r009-ent-338531576",
@@ -2535,7 +2539,6 @@
         "dept:cmet",
         "dept:cmat",
         "r011-printer-5130529215",
-        "maukas",
         "CHEM",
         "r011-ywing",
         "r011-bwing",
@@ -3198,6 +3201,7 @@
       "address": "Otaniementie 9",
       "aliases": [
         "R015",
+        "Harald Herlin Learning Centre",
         "Aalto-yliopiston kirjasto",
         "Main Library",
         "Learning Center",
@@ -3208,6 +3212,7 @@
         "kirjasto-printer-5120785982",
         "kirjasto-printer-5120785976",
         "robertscoffee",
+        "aaltopahvi",
         "kirjasto-106",
         "kirjasto-107",
         "kirjasto-108",
@@ -3370,6 +3375,7 @@
       ],
       "children": [
         "dept:mecheng",
+        "dept:builtenv",
         "ENG",
         "r016-ent-5898662649",
         "r016-ent-A"
@@ -4081,117 +4087,6 @@
         [
           60.181907,
           24.830619
-        ]
-      ],
-      "type": "building"
-    },
-    {
-      "address": "Miestentie 3",
-      "aliases": [
-        "R024",
-        "MT3"
-      ],
-      "children": [
-        "dept:architecture",
-        "medialab",
-        "servicedesk_mt3",
-        "r024-ent-A",
-        "r024-ent-B"
-      ],
-      "entrances": [
-        {
-          "lat": 60.178233,
-          "lon": 24.828871,
-          "name": "B"
-        },
-        {
-          "lat": 60.178656,
-          "lon": 24.828869,
-          "name": "A"
-        }
-      ],
-      "id": "r024",
-      "label": "24",
-      "latlon": [
-        60.178449,
-        24.829022
-      ],
-      "name": "Arkkitehtuuri + Helsinki Medialab",
-      "name_en": "Architecture + Helsinki Medialab",
-      "osm_elements": [
-        [
-          "way",
-          27468640
-        ]
-      ],
-      "outline": [
-        [
-          60.178164,
-          24.82892
-        ],
-        [
-          60.178233,
-          24.828871
-        ],
-        [
-          60.178439,
-          24.828744
-        ],
-        [
-          60.17847,
-          24.828777
-        ],
-        [
-          60.178502,
-          24.828957
-        ],
-        [
-          60.178656,
-          24.828869
-        ],
-        [
-          60.178721,
-          24.828827
-        ],
-        [
-          60.178748,
-          24.828843
-        ],
-        [
-          60.178792,
-          24.82911
-        ],
-        [
-          60.178774,
-          24.829179
-        ],
-        [
-          60.178503,
-          24.829354
-        ],
-        [
-          60.178469,
-          24.829317
-        ],
-        [
-          60.178444,
-          24.829136
-        ],
-        [
-          60.178218,
-          24.829296
-        ],
-        [
-          60.178189,
-          24.829257
-        ],
-        [
-          60.178147,
-          24.828989
-        ],
-        [
-          60.178164,
-          24.82892
         ]
       ],
       "type": "building"
@@ -4976,6 +4871,7 @@
       ],
       "children": [
         "eit_rawmaterials",
+        "eit_clc",
         "unit:eit",
         "oih_cafe",
         "ELEC",
@@ -5126,6 +5022,7 @@
         "R034"
       ],
       "children": [
+        "dept:builtenv",
         "fatlizard",
         "ENG",
         "r034-286",
@@ -5214,81 +5111,6 @@
       "type": "building"
     },
     {
-      "address": "Vaisalantie 8",
-      "aliases": [
-        "R035"
-      ],
-      "children": [
-        "dept:builtenv",
-        "itservices",
-        "r035-ent-2203541207"
-      ],
-      "entrances": [
-        {
-          "lat": 60.188809,
-          "lon": 24.8087,
-          "main": true
-        }
-      ],
-      "id": "r035",
-      "label": "35",
-      "latlon": [
-        60.188809,
-        24.8087
-      ],
-      "name": "Rakennetun ymp\u00e4rist\u00f6n laitos",
-      "name_en": "Department of Built Environment",
-      "osm_elements": [
-        [
-          "way",
-          51725020
-        ]
-      ],
-      "outline": [
-        [
-          60.188895,
-          24.808022
-        ],
-        [
-          60.188909,
-          24.808105
-        ],
-        [
-          60.188974,
-          24.808507
-        ],
-        [
-          60.188986,
-          24.808583
-        ],
-        [
-          60.188956,
-          24.808603
-        ],
-        [
-          60.188809,
-          24.8087
-        ],
-        [
-          60.188641,
-          24.808811
-        ],
-        [
-          60.188632,
-          24.808759
-        ],
-        [
-          60.188549,
-          24.80825
-        ],
-        [
-          60.188895,
-          24.808022
-        ]
-      ],
-      "type": "building"
-    },
-    {
       "address": "Tietotie 3",
       "aliases": [
         "R036"
@@ -5299,11 +5121,12 @@
         "dept:physics",
         "nanofab",
         "unit:nanofab",
+        "otanano",
         "ELEC",
         "SCI",
         "amica-micronova",
-        "r036-ent-5081929212",
-        "r036-ent-5081929217"
+        "micronova-ent-5081929212",
+        "micronova-ent-5081929217"
       ],
       "entrances": [
         {
@@ -5316,7 +5139,7 @@
           "lon": 24.815947
         }
       ],
-      "id": "r036",
+      "id": "micronova",
       "label": "Micronova\n36",
       "latlon": [
         60.184762,
@@ -5524,9 +5347,9 @@
         "servicedesk_tuas",
         "tuas-printer-5105524127",
         "tuas-printer-5105524126",
+        "amicatuas",
         "ELEC",
         "SCI",
-        "amicatuas",
         "tuas-159xwing",
         "tuas-x1xxwing",
         "tuas-x5xxwing",
@@ -5816,6 +5639,7 @@
         "R039"
       ],
       "children": [
+        "panimo",
         "r039-ent-5270776201",
         "r039-ent-D"
       ],
@@ -6144,7 +5968,9 @@
         "dept:design",
         "dept:media",
         "dept:film",
+        "medialab",
         "dept:lume",
+        "servicedesk_vare",
         "brooklyn",
         "Kipsari",
         "ARTS",
@@ -6977,8 +6803,8 @@
       "name_sv": "Institutionen f\u00f6r arkitektur",
       "note": "Department located on Arabia campus, Helsinki.",
       "parents": [
-        "r024",
-        "ARTS"
+        "ARTS",
+        "A"
       ],
       "type": "department",
       "url": "http://architecture.aalto.fi/",
@@ -7169,7 +6995,7 @@
       "parents": [
         "T",
         "tuas",
-        "r036",
+        "micronova",
         "ELEC"
       ],
       "type": "department",
@@ -7182,7 +7008,7 @@
       "name_fi": "Elektroniikan ja nanotekniikan laitos",
       "name_sv": "Institutionen f\u00f6r elektronik och nanoteknik",
       "parents": [
-        "r036",
+        "micronova",
         "tuas",
         "ELEC"
       ],
@@ -7255,7 +7081,8 @@
       "name_fi": "Rakennetun ymp\u00e4rist\u00f6n laitos",
       "parents": [
         "K1",
-        "r035",
+        "r016",
+        "r034",
         "ENG"
       ],
       "type": "department",
@@ -7269,7 +7096,7 @@
       "name_sv": "Institutionen f\u00f6r teknisk fysik",
       "parents": [
         "main",
-        "r036",
+        "micronova",
         "r009",
         "SCI"
       ],
@@ -7337,6 +7164,15 @@
       "type": "department",
       "url_en": "http://nbe.aalto.fi/en/",
       "url_fi": "http://nbe.aalto.fi/fi/"
+    },
+    {
+      "id": "itservices",
+      "name": "IT Services",
+      "parents": [
+        "main",
+        "U"
+      ],
+      "type": "unit"
     },
     {
       "id": "acousticslab",
@@ -7458,18 +7294,23 @@
       "type": "unit"
     },
     {
-      "id": "itservices",
-      "name": "IT Services",
-      "parents": [
-        "r035"
+      "aliases": [
+        "CLC"
       ],
-      "type": "unit"
+      "id": "eit_clc",
+      "name": "EIT Co-Location Centre",
+      "note": "Accessible when hosted by an EIT member",
+      "parents": [
+        "oih"
+      ],
+      "type": "unit",
+      "url_en": "https://masterschool.eitdigital.eu/about-us/co-location-centres/"
     },
     {
       "id": "nanofab",
       "name": "Nanofab",
       "parents": [
-        "r036"
+        "micronova"
       ],
       "type": "unit"
     },
@@ -7488,7 +7329,6 @@
       "parents": [
         "servicedesk_dipoli",
         "servicedesk_kandi",
-        "servicedesk_mt3",
         "servicedesk_tuas"
       ],
       "type": "unit"
@@ -7497,7 +7337,7 @@
       "id": "medialab",
       "name": "Media Lab Helsinki",
       "parents": [
-        "r024",
+        "vare",
         "dept:media"
       ],
       "type": "unit"
@@ -7579,7 +7419,7 @@
       "id": "unit:nanofab",
       "name": "Aalto Nanofab",
       "parents": [
-        "r036",
+        "micronova",
         "ELEC"
       ],
       "type": "unit",
@@ -7625,6 +7465,16 @@
       ],
       "type": "unit",
       "url": "http://sci.aalto.fi/en/departments/#eit"
+    },
+    {
+      "id": "otanano",
+      "name": "OtaNano",
+      "parents": [
+        "r009",
+        "micronova"
+      ],
+      "type": "unit",
+      "url": "https://otanano.fi"
     },
     {
       "id": "library_cs",
@@ -7967,17 +7817,6 @@
       "type": "service"
     },
     {
-      "children": [
-        "itservicedesks"
-      ],
-      "id": "servicedesk_mt3",
-      "name": "IT Service Desk MT3",
-      "parents": [
-        "r024"
-      ],
-      "type": "service"
-    },
-    {
       "address": "TUAS 1163",
       "children": [
         "itservicedesks"
@@ -7991,6 +7830,15 @@
       "note": "Open at least during the stated times, but people may be available at other times as well.",
       "parents": [
         "tuas"
+      ],
+      "type": "service"
+    },
+    {
+      "id": "servicedesk_vare",
+      "name": "IT Service Desk V\u00e4re",
+      "note": "Room R101",
+      "parents": [
+        "vare"
       ],
       "type": "service"
     },
@@ -8535,6 +8383,43 @@
       "type": "location"
     },
     {
+      "id": "factory",
+      "latlon": [
+        60.188863,
+        24.831998
+      ],
+      "name": "Factory",
+      "osm_elements": [
+        [
+          "node",
+          "5012868028"
+        ]
+      ],
+      "parents": [
+        "agrid"
+      ],
+      "type": "restaurant"
+    },
+    {
+      "id": "agrid-havajava",
+      "latlon": [
+        60.189028,
+        24.830588
+      ],
+      "name": "Hav a Java",
+      "opening_hours": "Mo-Fr 08:00-16:00; PH off",
+      "osm_elements": [
+        [
+          "node",
+          "5389688275"
+        ]
+      ],
+      "parents": [
+        "agrid"
+      ],
+      "type": "cafe"
+    },
+    {
       "address": "Otakaari 4",
       "id": "sodexokone",
       "latlon": [
@@ -8551,26 +8436,6 @@
       ],
       "parents": [
         "K1"
-      ],
-      "type": "restaurant"
-    },
-    {
-      "address": "Vuorimiehentie 5",
-      "id": "maukas",
-      "latlon": [
-        60.182828,
-        24.828121
-      ],
-      "name": "Mau-kas",
-      "opening_hours": "Mo-Fr 08:00-14:30; Mo-Fr 08:00-09:45 \"breakfast\"; Mo-Fr 10:45-14:00 \"lunch\"; PH off",
-      "osm_elements": [
-        [
-          "node",
-          "2381695985"
-        ]
-      ],
-      "parents": [
-        "r011"
       ],
       "type": "restaurant"
     },
@@ -8670,6 +8535,44 @@
         ]
       ],
       "type": "otherbuilding"
+    },
+    {
+      "id": "robertscoffee",
+      "latlon": [
+        60.184712,
+        24.827668
+      ],
+      "name": "Robert's Coffee",
+      "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-18:00; PH off",
+      "osm_elements": [
+        [
+          "node",
+          "5012868053"
+        ]
+      ],
+      "parents": [
+        "kirjasto"
+      ],
+      "type": "cafe"
+    },
+    {
+      "address": "Otaniementie 9",
+      "id": "aaltopahvi",
+      "latlon": [
+        60.184595,
+        24.827675
+      ],
+      "name": "Aaltopahvi",
+      "osm_elements": [
+        [
+          "node",
+          "6115098577"
+        ]
+      ],
+      "parents": [
+        "kirjasto"
+      ],
+      "type": "shopping"
     },
     {
       "id": "carre",
@@ -9060,6 +8963,43 @@
       ],
       "parents": [
         "r034"
+      ],
+      "type": "restaurant"
+    },
+    {
+      "id": "amicatuas",
+      "latlon": [
+        60.18714,
+        24.819816
+      ],
+      "name": "Fazer Food & Co: TUAS",
+      "opening_hours": "Mo-Th 07:45-15:00; Fr 07:45-14:00; Mo-Th 10:30-15:00 \"lunch\"; Fr 10:30-14:00 \"lunch\"; PH off",
+      "osm_elements": [
+        [
+          "node",
+          "580706218"
+        ]
+      ],
+      "parents": [
+        "tuas"
+      ],
+      "type": "restaurant"
+    },
+    {
+      "id": "panimo",
+      "latlon": [
+        60.182867,
+        24.829705
+      ],
+      "name": "Olarin panimo",
+      "osm_elements": [
+        [
+          "node",
+          "6583558878"
+        ]
+      ],
+      "parents": [
+        "r039"
       ],
       "type": "restaurant"
     },
@@ -9601,6 +9541,23 @@
       "type": "restaurant"
     },
     {
+      "address": "Vuorimiehentie 5",
+      "id": "maukas",
+      "latlon": [
+        60.182828,
+        24.828121
+      ],
+      "name": "Mau-kas",
+      "opening_hours": "Mo-Fr 08:00-14:30; Mo-Fr 08:00-09:45 \"breakfast\"; Mo-Fr 10:45-14:00 \"lunch\"; PH off",
+      "osm_elements": [
+        [
+          "node",
+          "2381695985"
+        ]
+      ],
+      "type": "restaurant"
+    },
+    {
       "aliases": [
         "ARTS"
       ],
@@ -9690,7 +9647,7 @@
       "parents": [
         "oih",
         "tuas",
-        "r036",
+        "micronova",
         "agrid-K"
       ],
       "type": "school",
@@ -9749,7 +9706,7 @@
         "r009",
         "T",
         "oih",
-        "r036",
+        "micronova",
         "tuas"
       ],
       "type": "school",
@@ -12039,6 +11996,9 @@
       "aliases": [
         "JMT3 A"
       ],
+      "children": [
+        "polyteekkarimuseo"
+      ],
       "id": "JMT3a",
       "latlon": [
         60.187372,
@@ -12090,6 +12050,27 @@
         ]
       ],
       "type": "studenthousing"
+    },
+    {
+      "address": "J\u00e4mer\u00e4ntaival 3",
+      "id": "polyteekkarimuseo",
+      "latlon": [
+        60.187343,
+        24.836548
+      ],
+      "name": "Polyteekkarimuseo",
+      "name_en": "Polytechnical Museum",
+      "opening_hours": "\"open by agreement\"",
+      "osm_elements": [
+        [
+          "node",
+          "25038585"
+        ]
+      ],
+      "parents": [
+        "JMT3a"
+      ],
+      "type": "museum"
     },
     {
       "address": "J\u00e4mer\u00e4ntaival 3 B",
@@ -13109,30 +13090,11 @@
         ]
       ],
       "parents": [
-        "r036"
+        "micronova"
       ],
       "type": "restaurant",
       "url_en": "http://www.amica.fi/en/restaurants/ravintolat-kaupungeittain/espoo/vtt-micronova/",
       "url_fi": "http://www.amica.fi/ravintolat/ravintolat-kaupungeittain/espoo/vtt-micronova/"
-    },
-    {
-      "id": "amicatuas",
-      "latlon": [
-        60.18714,
-        24.819816
-      ],
-      "name": "Amica TUAS",
-      "opening_hours": "Mo-Th 07:45-15:00; Fr 07:45-14:00; Mo-Th 10:30-15:00 \"lunch\"; Fr 10:30-14:00 \"lunch\"; PH off",
-      "osm_elements": [
-        [
-          "node",
-          "580706218"
-        ]
-      ],
-      "parents": [
-        "tuas"
-      ],
-      "type": "restaurant"
     },
     {
       "id": "r011-bwing",
@@ -13705,14 +13667,6 @@
         ]
       ],
       "type": "auxbuilding"
-    },
-    {
-      "id": "robertscoffee",
-      "name": "Robert's Coffee",
-      "parents": [
-        "kirjasto"
-      ],
-      "type": "cafe"
     },
     {
       "id": "silinteri",
@@ -15233,6 +15187,9 @@
       "type": "wing"
     },
     {
+      "children": [
+        "dept:architecture"
+      ],
       "id": "A",
       "latlon": [
         60.186176,
@@ -15800,6 +15757,9 @@
       "type": "wing"
     },
     {
+      "children": [
+        "itservices"
+      ],
       "id": "U",
       "latlon": [
         60.187162,
@@ -19775,7 +19735,7 @@
     },
     {
       "address": "Tekniikantie 17",
-      "id": "r036-ent-5081929212",
+      "id": "micronova-ent-5081929212",
       "latlon": [
         60.184578,
         24.815947
@@ -19789,7 +19749,7 @@
         ]
       ],
       "parents": [
-        "r036"
+        "micronova"
       ],
       "type": "entrance"
     },
@@ -20235,25 +20195,6 @@
       "type": "entrance"
     },
     {
-      "id": "r035-ent-2203541207",
-      "latlon": [
-        60.188809,
-        24.8087
-      ],
-      "name": "Entrance (main)",
-      "nosearch": true,
-      "osm_elements": [
-        [
-          "node",
-          "2203541207"
-        ]
-      ],
-      "parents": [
-        "r035"
-      ],
-      "type": "entrance"
-    },
-    {
       "id": "r040-ent-25468805",
       "latlon": [
         60.185924,
@@ -20369,7 +20310,7 @@
       "type": "entrance"
     },
     {
-      "id": "r036-ent-5081929217",
+      "id": "micronova-ent-5081929217",
       "latlon": [
         60.184762,
         24.818377
@@ -20383,7 +20324,7 @@
         ]
       ],
       "parents": [
-        "r036"
+        "micronova"
       ],
       "type": "entrance"
     },
@@ -20441,25 +20382,6 @@
       ],
       "parents": [
         "r012"
-      ],
-      "type": "entrance"
-    },
-    {
-      "id": "r024-ent-A",
-      "latlon": [
-        60.178656,
-        24.828869
-      ],
-      "name": "Entrance A",
-      "nosearch": true,
-      "osm_elements": [
-        [
-          "node",
-          "301609066"
-        ]
-      ],
-      "parents": [
-        "r024"
       ],
       "type": "entrance"
     },
@@ -20650,25 +20572,6 @@
       ],
       "parents": [
         "abloc"
-      ],
-      "type": "entrance"
-    },
-    {
-      "id": "r024-ent-B",
-      "latlon": [
-        60.178233,
-        24.828871
-      ],
-      "name": "Entrance B",
-      "nosearch": true,
-      "osm_elements": [
-        [
-          "node",
-          "301543657"
-        ]
-      ],
-      "parents": [
-        "r024"
       ],
       "type": "entrance"
     },

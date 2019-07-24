@@ -7834,7 +7834,12 @@
       "type": "service"
     },
     {
+      "floor": 1,
       "id": "servicedesk_vare",
+      "latlon": [
+        60.18557,
+        24.82412
+      ],
       "name": "IT Service Desk V\u00e4re",
       "note": "Room R101",
       "parents": [

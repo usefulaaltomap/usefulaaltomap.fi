@@ -463,6 +463,10 @@
           24.829376
         ],
         [
+          60.187066,
+          24.829376
+        ],
+        [
           60.187047,
           24.829377
         ],
@@ -5170,8 +5174,8 @@
       ],
       "entrances": [
         {
-          "lat": 60.184762,
-          "lon": 24.818377,
+          "lat": 60.184774,
+          "lon": 24.818372,
           "main": true
         },
         {
@@ -5182,8 +5186,8 @@
       "id": "micronova",
       "label": "Micronova\n36",
       "latlon": [
-        60.184762,
-        24.818377
+        60.184774,
+        24.818372
       ],
       "name": "VTT Micronova",
       "osm_elements": [
@@ -5246,8 +5250,8 @@
           24.818368
         ],
         [
-          60.184762,
-          24.818377
+          60.184774,
+          24.818372
         ],
         [
           60.184663,
@@ -5371,6 +5375,7 @@
     {
       "address": "Maarintie 8",
       "aliases": [
+        "Aalto TUAS-talo",
         "R037",
         "TU",
         "AS"
@@ -5437,8 +5442,7 @@
         24.819558
       ],
       "lore": "If you know this building originally had the departments of Industrial Engineering and Management (TUotantotalouden = TUTA, still there) and Automation and Systems Technology (=AS, now merged with others), the name makes a lot of sense.",
-      "name": "TUAS-talo",
-      "name_en": "TUAS",
+      "name": "Maarintie 8",
       "note": "Some wings are marked here, but numbering is not entirely consistent.  To get to 4th floor, you have to take the elevator or stairs within the x1xx wing, not the obvious glass elevator (just keep walking back and you'll find it)",
       "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-18:00; Jun-Aug Mo-Fr 08:00-15:30; PH off",
       "osm_elements": [
@@ -16797,8 +16801,8 @@
       ],
       "id": "U",
       "latlon": [
-        60.187157,
-        24.828954
+        60.187155,
+        24.828964
       ],
       "lore": "The \"U\" comes from \"uusi\" (new) - the new part of the building.",
       "name": "U siipi Main",
@@ -16854,6 +16858,10 @@
         [
           60.187047,
           24.829377
+        ],
+        [
+          60.187066,
+          24.829376
         ],
         [
           60.187086,
@@ -21517,8 +21525,8 @@
     {
       "id": "micronova-ent-5081929217",
       "latlon": [
-        60.184762,
-        24.818377
+        60.184774,
+        24.818372
       ],
       "name": "Entrance (main) \u267f",
       "nosearch": true,

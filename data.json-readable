@@ -14847,12 +14847,14 @@
     },
     {
       "address": "Otaniementie 12",
+      "floor": 2,
       "id": "abloc-wickedrabbit",
       "latlon": [
-        60.18515,
-        24.82498
+        60.18506,
+        24.82518
       ],
       "name": "Wicked Rabbit",
+      "note": "within the Fazer restaurant in A bloc.",
       "parents": [
         "abloc"
       ],

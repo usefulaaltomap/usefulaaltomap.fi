@@ -5583,6 +5583,7 @@
       "address": "Otakaari 11",
       "aliases": [
         "R038",
+        "AYY",
         "OK11"
       ],
       "children": [
@@ -6363,6 +6364,7 @@
         "abloc-havajava",
         "abloc-foodandco",
         "abloc-eatpoke",
+        "abloc-wickedrabbit",
         "abloc-ent-5871819458",
         "abloc-ent-5026528602",
         "abloc-ent-5871819469",
@@ -14840,6 +14842,19 @@
       ],
       "parents": [
         "r059"
+      ],
+      "type": "restaurant"
+    },
+    {
+      "address": "Otaniementie 12",
+      "id": "abloc-wickedrabbit",
+      "latlon": [
+        60.18515,
+        24.82498
+      ],
+      "name": "Wicked Rabbit",
+      "parents": [
+        "abloc"
       ],
       "type": "restaurant"
     },

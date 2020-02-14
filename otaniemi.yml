@@ -153,6 +153,7 @@ buildings:
     osm: 24342454
     aliases: [R004, A-grid, Vanha Sähkötekniikka, Old Electrical Engineering]
     label: A Grid
+    name: A Grid
     note: >-
       2016 and earlier, this used to be the School of Electrical
       Engineering main building.  During 2017, it was renovated as a
@@ -315,6 +316,7 @@ buildings:
   - id: r009
     osm: 27930945
     aliases: [R009]
+    name: Nanotalo
     label: Nanotalo
   - id: r010
     osm: 4424188
@@ -383,6 +385,9 @@ buildings:
               Main Library, Learning Center,
               HH-center, HH-keskus
            ]
+    name: Library
+    name_fi: Kirjasto
+    name_en: Library
     lore: >-
       This used to be the main library.  In 2016, it was renovated and turned
       into a modern library: the "Learning Centre".  Most people call it the
@@ -405,6 +410,8 @@ buildings:
     osm: 7584131
     aliases: [R017]
     label: Maari
+    name: Maarintalo
+    name_en: null
   - id: r018
     osm: 7244238
     aliases: [R018]
@@ -499,6 +506,10 @@ buildings:
     osm: 26608317
     aliases: [R026]
     label: Startup Sauna
+    children:
+      - name: Startup Sauna
+        type: unit
+        id: startupsauna
   - id: r027
     osm: 7588940
     aliases: [R027]
@@ -517,6 +528,7 @@ buildings:
     aliases: [R029, Aalto Studios]
     label: Studios
     name: Aalto Studios
+    name_en: null
     address: Otakaari 7
     children:
       - name: Studio Kipsari
@@ -617,6 +629,7 @@ buildings:
     osm: 7585092
     aliases: [R036]
     label: Micronova
+    name: Micronova
     children:
       - name: Nanofab
         type: unit
@@ -630,6 +643,7 @@ buildings:
   - id: tuas
     osm: 29012757
     aliases: [R037, TU, AS]
+    name: TUAS
     label: TUAS
     children:
       - name: Aalto Ventures Program
@@ -767,9 +781,10 @@ buildings:
   # Väre
   - id: vare
     osm: 522627431
-    aliases: [R067, School of Arts, Design and Architecture, School of Business]
+    aliases: [R067, School of Arts, Design and Architecture]
     label: Väre
     name: Väre
+    name_en: null
     children:
       - id: aaltoshop
         osm: node=5871819464

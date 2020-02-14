@@ -175,7 +175,7 @@
       ],
       "lore": "In 2016, this became the undergraduate center.  Previously, it was known as many things, among them the \"main building\".  Now, ACRE decided that Dipoli would be the main building.  This has made the name \"main building\" completly useless: if you ever say this, people will first think of this building, and maybe Dipoli second.  We all just agree that this will always be the main building, and Dipoli is always called Dipoli.",
       "name": "Aalto-yliopisto Kandidaattikeskus",
-      "name_en": "University Undergraduate Centre",
+      "name_en": "Undergraduate Centre",
       "name_sv": "Aalto-universitetet Kandidatcentret",
       "note": "This building is large and confusing, but has reasonable maps inside.  Make sure you know the wing (letter) of the place you are going (not the same as entrance letters or lecture hall letters!).  In general, single letters are lecture halls that could be anywhere (use the maps), letter+number (e.g. Y123) is within that wing, and company names are lecture halls in U-wing.  Also, not everything connected on the upper levels: go to your wing first, then go up.\n",
       "opening_hours": "Mo-Th 07:45-20:00; Fr 07:45-18:00; Jun-Aug 08:00-15:30; PH off",
@@ -1015,7 +1015,7 @@
       ],
       "lore": "Originally the Applied Physics (Fysiikka) building.  Physics has moved long-ago, and apparently in 2015 was renamed \"Health Technology House\" without any of the occupants knowing, but we will always call it the F-building.",
       "name": "Aalto-yliopisto Terveysteknologian talo",
-      "name_en": "University Health Technology House",
+      "name_en": "Health Technology House",
       "note": "To get to NBE, you must enter through the C door on Rakentajanaukio.  To get to lecture rooms and restaurants, use the A door on Otakaari.  Internal connection only for staff.",
       "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-18:00; Jun-Aug Mo-Fr 08:00-15:30; PH off",
       "osm_elements": [
@@ -1252,7 +1252,7 @@
         60.188905,
         24.830154
       ],
-      "name": "Aalto-yliopisto A Grid",
+      "name": "A Grid",
       "note": "2016 and earlier, this used to be the School of Electrical Engineering main building.  During 2017, it was renovated as a new start-up hub, \"A Grid\", and the old Electrical Engineering departments mostly moved to other places.",
       "opening_hours": "Mo-Fr 08:00-16:00; PH off",
       "osm_elements": [
@@ -2028,7 +2028,7 @@
         24.825221
       ],
       "name": "Aalto-yliopisto Konetekniikka 2",
-      "name_en": "University Mechanical Engineering 2",
+      "name_en": "Mechanical Engineering 2",
       "name_sv": "Aalto-universitetet Mechanik Engineering 2",
       "opening_hours": "Mo-Fr 08:00-15:45; Jun-Aug Mo-Fr 08:00-15:30; PH off",
       "osm_elements": [
@@ -2148,7 +2148,7 @@
         24.826799
       ],
       "name": "Aalto-yliopisto Konetekniikka 1",
-      "name_en": "University Mechanical Engineering 1",
+      "name_en": "Mechanical Engineering 1",
       "name_sv": "Aalto-universitetet Mechanik Engineering 1",
       "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-18:00; Jun-Aug Mo-Fr 08:00-15:30; PH off",
       "osm_elements": [
@@ -2285,8 +2285,8 @@
         60.187,
         24.825506
       ],
-      "name": "Aalto-yliopisto Nanotalo",
-      "name_en": "University Nanobuilding",
+      "name": "Nanotalo",
+      "name_en": "Nanobuilding",
       "name_sv": "Aalto-universitetet Nanobyggan",
       "osm_elements": [
         [
@@ -2610,7 +2610,7 @@
         24.824385
       ],
       "name": "Aalto-yliopisto Kemian tekniikan korkeakoulu",
-      "name_en": "University School of Chemical Engineering",
+      "name_en": "School of Chemical Engineering",
       "name_sv": "Aalto-universitetet H\u00f6gskolan f\u00f6r kemiteknik",
       "opening_hours": "Mo-Th 07:45-20:00; Fr 07:45-18:00; Jun-Aug Mo-Fr 08:00-15:30; PH off",
       "osm_elements": [
@@ -3280,8 +3280,9 @@
         24.827881
       ],
       "lore": "This used to be the main library.  In 2016, it was renovated and turned into a modern library: the \"Learning Centre\".  Most people call it the library still, as they should.  Let's just agree that the building is the \"Otaniemi Library\" and the learning center is inside of it so that everyone can be happy.",
-      "name": "Aalto-yliopisto Harald Herlin -oppimiskeskus",
-      "name_en": "University Harald Herlin Learning Center",
+      "name": "Library",
+      "name_en": "Library",
+      "name_fi": "Kirjasto",
       "name_sv": "Aalto-universitetet Harald Herlin -l\u00e4rcentret",
       "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-15:00; PH off",
       "osm_elements": [
@@ -3546,7 +3547,6 @@
         24.826134
       ],
       "name": "Maarintalo",
-      "name_en": "Maari Building",
       "name_sv": "Maarihuset",
       "osm_elements": [
         [
@@ -4276,6 +4276,7 @@
         "R026"
       ],
       "children": [
+        "startupsauna",
         "r026-ent-D"
       ],
       "entrances": [
@@ -4458,7 +4459,6 @@
         24.833487
       ],
       "name": "Aalto Studios",
-      "name_en": "Studios",
       "opening_hours": "Mo-Fr 07:45-15:30; PH off",
       "osm_elements": [
         [
@@ -5189,7 +5189,7 @@
         60.184774,
         24.818372
       ],
-      "name": "VTT Micronova",
+      "name": "Micronova",
       "osm_elements": [
         [
           "way",
@@ -5442,7 +5442,7 @@
         24.819558
       ],
       "lore": "If you know this building originally had the departments of Industrial Engineering and Management (TUotantotalouden = TUTA, still there) and Automation and Systems Technology (=AS, now merged with others), the name makes a lot of sense.",
-      "name": "Maarintie 8",
+      "name": "TUAS",
       "note": "Some wings are marked here, but numbering is not entirely consistent.  To get to 4th floor, you have to take the elevator or stairs within the x1xx wing, not the obvious glass elevator (just keep walking back and you'll find it)",
       "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-18:00; Jun-Aug Mo-Fr 08:00-15:30; PH off",
       "osm_elements": [
@@ -6008,8 +6008,7 @@
       "aliases": [
         "R067",
         "School of Arts",
-        "Design and Architecture",
-        "School of Business"
+        "Design and Architecture"
       ],
       "children": [
         "dept:art",
@@ -6045,7 +6044,6 @@
         24.825587
       ],
       "name": "V\u00e4re",
-      "name_en": "University School of Arts, Design and Architecture's building V\u00e4re",
       "name_sv": "Aalto-universitetets h\u00f6gskolan f\u00f6r konst, design och arkitektur byggnad V\u00e4re",
       "osm_elements": [
         [
@@ -6257,7 +6255,7 @@
         24.823497
       ],
       "name": "Aalto-yliopisto Kauppakorkeakoulu",
-      "name_en": "University School of Business",
+      "name_en": "School of Business",
       "osm_elements": [
         [
           "way",
@@ -6932,7 +6930,6 @@
       "id": "dept:pupa",
       "name_en": "Pori Urban Platform (PUPA)",
       "name_fi": "Porin yliopistokeskus (PUPA)",
-      "name_sv": null,
       "type": "department",
       "url_en": "http://taide.aalto.fi/en/pori/",
       "url_fi": "http://taide.aalto.fi/fi/pori/"
@@ -7013,7 +7010,6 @@
       "id": "dept:cmet",
       "name_en": "Department of Chemical and Metallurgical Engineering",
       "name_fi": "Kemian tekniikan ja metallurgian laitos",
-      "name_sv": null,
       "parents": [
         "r011",
         "CHEM"
@@ -7336,6 +7332,14 @@
       "url": "http://ani.aalto.fi/en/ami_centre/"
     },
     {
+      "id": "startupsauna",
+      "name": "Startup Sauna",
+      "parents": [
+        "r026"
+      ],
+      "type": "unit"
+    },
+    {
       "id": "elofilmschoolhelsinki",
       "name": "ELO Film School Helsinki",
       "parents": [
@@ -7404,7 +7408,6 @@
       "id": "dept:lume",
       "name_en": "Media Centre Lume",
       "name_fi": "Mediakeskus Lume",
-      "name_sv": null,
       "note": "Part of Department of Film, Television and Scenography.  Located on Arabia campus, Helsinki.",
       "parents": [
         "vare",
@@ -19736,7 +19739,7 @@
         24.822295
       ],
       "name": "Paniikki",
-      "name_en": "University Panique Computer Lab",
+      "name_en": "Panique Computer Lab",
       "osm_elements": [
         [
           "way",

@@ -7643,8 +7643,8 @@
         60.185094,
         24.825035
       ],
-      "name": "Apteekki",
-      "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-16:00",
+      "name": "Otaniemen sivuapteekki",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-18:00",
       "osm_elements": [
         [
           "node",

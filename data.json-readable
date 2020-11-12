@@ -6808,6 +6808,7 @@
       "type": "building"
     },
     {
+      "address": "Tietotie 4 B",
       "children": [
         "metroB-ent-4104851062"
       ],

@@ -15204,6 +15204,7 @@
       "type": "restaurant"
     },
     {
+      "address": "Otakaari 7 B",
       "id": "studiokipsari",
       "latlon": [
         60.188962,

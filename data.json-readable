@@ -2680,7 +2680,7 @@
         "r011-ent-338537204",
         "r011-ent-338537520",
         "r011-ent-D",
-        "r011-ent-F"
+        "r011-ent-F3"
       ],
       "entrances": [
         {
@@ -2698,9 +2698,9 @@
           "name": "D"
         },
         {
-          "lat": 60.183111,
-          "lon": 24.823485,
-          "name": "F"
+          "lat": 60.183059,
+          "lon": 24.823056,
+          "name": "F3"
         }
       ],
       "id": "r011",
@@ -2711,7 +2711,7 @@
       ],
       "name": "Aalto-yliopisto Kemian tekniikan korkeakoulu",
       "name_en": "School of Chemical Engineering",
-      "name_sv": "Aalto-universitetet H\u00f6gskolan f\u00f6r kemiteknik",
+      "name_sv": "Aalto-universitetet H\u00c3\u00b6gskolan f\u00c3\u00b6r kemiteknik",
       "opening_hours": "Mo-Th 07:45-20:00; Fr 07:45-18:00; Jun-Aug Mo-Fr 08:00-15:30; PH off",
       "osm_elements": [
         [
@@ -2973,6 +2973,10 @@
           24.823159
         ],
         [
+          60.183059,
+          24.823056
+        ],
+        [
           60.183132,
           24.822952
         ]
@@ -2992,6 +2996,7 @@
         "r012-145",
         "r012-C100",
         "r012-C101",
+        "r012-ent-2N",
         "r012-ent-A",
         "r012-ent-D",
         "r012-ent-K",
@@ -3013,6 +3018,11 @@
           "lon": 24.82477,
           "main": true,
           "name": "K"
+        },
+        {
+          "lat": 60.182564,
+          "lon": 24.823957,
+          "name": "2N"
         },
         {
           "lat": 60.183146,
@@ -3148,6 +3158,10 @@
         [
           60.182393,
           24.823619
+        ],
+        [
+          60.182564,
+          24.823957
         ],
         [
           60.183112,
@@ -14915,8 +14929,8 @@
     {
       "id": "r011-fwing",
       "latlon": [
-        60.18319,
-        24.82347
+        60.18318,
+        24.823441
       ],
       "name": "F siipi Kemma",
       "name_en": "F wing Kemma",
@@ -14959,6 +14973,10 @@
         [
           60.182987,
           24.823159
+        ],
+        [
+          60.183059,
+          24.823056
         ],
         [
           60.183132,
@@ -22213,6 +22231,25 @@
       "type": "entrance"
     },
     {
+      "id": "r012-ent-2N",
+      "latlon": [
+        60.182564,
+        24.823957
+      ],
+      "name": "Entrance 2N",
+      "nosearch": true,
+      "osm_elements": [
+        [
+          "node",
+          "8369110175"
+        ]
+      ],
+      "parents": [
+        "r012"
+      ],
+      "type": "entrance"
+    },
+    {
       "id": "r012-ent-A",
       "latlon": [
         60.18287,
@@ -22614,25 +22651,6 @@
       "type": "entrance"
     },
     {
-      "id": "r011-ent-F",
-      "latlon": [
-        60.183111,
-        24.823485
-      ],
-      "name": "Entrance F",
-      "nosearch": true,
-      "osm_elements": [
-        [
-          "node",
-          "301551069"
-        ]
-      ],
-      "parents": [
-        "r011"
-      ],
-      "type": "entrance"
-    },
-    {
       "id": "T-ent-F",
       "latlon": [
         60.186881,
@@ -22648,6 +22666,25 @@
       ],
       "parents": [
         "T"
+      ],
+      "type": "entrance"
+    },
+    {
+      "id": "r011-ent-F3",
+      "latlon": [
+        60.183059,
+        24.823056
+      ],
+      "name": "Entrance F3",
+      "nosearch": true,
+      "osm_elements": [
+        [
+          "node",
+          "8369110174"
+        ]
+      ],
+      "parents": [
+        "r011"
       ],
       "type": "entrance"
     },

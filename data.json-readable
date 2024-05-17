@@ -2046,24 +2046,21 @@
         "designfactory",
         "startupsauna",
         "ENG",
-        "K3-ent-10766856281",
-        "K3-ent-10766856283"
+        "K3-ent-A"
       ],
       "entrances": [
         {
-          "lat": 60.187832,
-          "lon": 24.824702
-        },
-        {
           "lat": 60.187838,
-          "lon": 24.824478
+          "lon": 24.824478,
+          "main": true,
+          "name": "A"
         }
       ],
       "id": "K3",
       "label": "K3\n6",
       "latlon": [
-        60.188211,
-        24.824439
+        60.187838,
+        24.824478
       ],
       "name": "Konetekniikka 3",
       "name_en": "Mechanical Engineering 3",
@@ -3619,8 +3616,8 @@
           "lon": 24.828057
         },
         {
-          "lat": 60.184607,
-          "lon": 24.827881,
+          "lat": 60.184603,
+          "lon": 24.827889,
           "main": true
         },
         {
@@ -3635,8 +3632,8 @@
       "id": "kirjasto",
       "label": "15",
       "latlon": [
-        60.184607,
-        24.827881
+        60.184603,
+        24.827889
       ],
       "lore": "This used to be the main library.  In 2016, it was renovated and turned into a modern library: the \"Learning Centre\".  Most people call it the library still, as they should.  Let's just agree that the building is the \"Otaniemi Library\" and the learning center is inside of it so that everyone can be happy.",
       "name": "Library",
@@ -3708,44 +3705,48 @@
           24.828415
         ],
         [
-          60.184615,
-          24.827998
+          60.184568,
+          24.828091
         ],
         [
-          60.184628,
-          24.827974
+          60.184609,
+          24.828009
         ],
         [
-          60.184619,
-          24.827932
+          60.184622,
+          24.827983
         ],
         [
-          60.184607,
-          24.827881
+          60.184613,
+          24.827938
         ],
         [
-          60.1846,
-          24.827847
+          60.184603,
+          24.827889
         ],
         [
-          60.184589,
-          24.827798
+          60.184596,
+          24.827852
         ],
         [
-          60.184576,
-          24.827808
+          60.184585,
+          24.827801
+        ],
+        [
+          60.184569,
+          24.827813
         ],
         [
           60.184536,
           24.827839
         ],
         [
-          60.184512,
-          24.827858
+          60.184519,
+          24.827852
         ],
         [
-          60.184484,
-          24.827721
+          60.18449,
+          24.827713
         ],
         [
           60.184504,
@@ -3754,6 +3755,10 @@
         [
           60.184523,
           24.827647
+        ],
+        [
+          60.184545,
+          24.827605
         ],
         [
           60.184548,
@@ -4616,6 +4621,10 @@
         [
           60.181907,
           24.830619
+        ],
+        [
+          60.18184,
+          24.830672
         ],
         [
           60.181408,
@@ -7211,6 +7220,9 @@
         "dept:physics",
         "ELEC",
         "SCI",
+        "kide-1501",
+        "kide-1572",
+        "kide-A133",
         "kide-ent-10238806258"
       ],
       "entrances": [
@@ -7226,6 +7238,7 @@
         24.823414
       ],
       "name": "Kide",
+      "opening_hours": "Mo-Fr 07:45-15:30; PH off",
       "osm_elements": [
         [
           "way",
@@ -7446,9 +7459,14 @@
       "address": "Mechelininkatu 3c",
       "children": [
         "unit:aaltoee",
+        "domusgadium-ent-11762183814",
         "domusgadium-ent-317741521"
       ],
       "entrances": [
+        {
+          "lat": 60.169373,
+          "lon": 24.922304
+        },
         {
           "lat": 60.169444,
           "lon": 24.921382
@@ -7456,8 +7474,8 @@
       ],
       "id": "domusgadium",
       "latlon": [
-        60.169553,
-        24.921579
+        60.169539,
+        24.921634
       ],
       "name": "Domus Gaudium",
       "osm_elements": [
@@ -7492,12 +7510,16 @@
           24.921729
         ],
         [
-          60.169421,
-          24.922321
+          60.169422,
+          24.922315
+        ],
+        [
+          60.169373,
+          24.922304
         ],
         [
           60.16927,
-          24.922275
+          24.922274
         ],
         [
           60.169337,
@@ -8411,7 +8433,7 @@
         24.825563
       ],
       "name": "R-Kioski",
-      "opening_hours": "Mo-Fr 06:00-20:00; Sa 11:00-18:00",
+      "opening_hours": "Mo-Fr 06:30-20:00; Sa 09:00-20:00",
       "osm_elements": [
         [
           "node",
@@ -8522,29 +8544,10 @@
       "type": "service"
     },
     {
-      "children": [
-        "taxi"
-      ],
-      "id": "taxi-dipoli",
-      "latlon": [
-        60.184797,
-        24.833299
-      ],
-      "nosearch": true,
-      "osm_elements": [
-        [
-          "node",
-          "283326614"
-        ]
-      ],
-      "type": "service"
-    },
-    {
       "id": "taxi",
       "note": "There are two taxi stands, by metro entrance A and by Dipoli (west side).  Usually you will call for one instead.  L\u00e4hitaksi phone=0100 7300",
       "parents": [
-        "taxi-metro",
-        "taxi-dipoli"
+        "taxi-metro"
       ],
       "type": "service"
     },
@@ -8681,26 +8684,6 @@
       ],
       "type": "service",
       "url": "https://www.aalto.fi/en/services/it-service-desk-contact-information-and-service-hours"
-    },
-    {
-      "aliases": [
-        "Mail box"
-      ],
-      "id": "r020-postbox",
-      "latlon": [
-        60.184584,
-        24.830163
-      ],
-      "name": "Postilaatikko",
-      "name_en": "Post box",
-      "note": "Collection times Mo-Fr 16:00",
-      "osm_elements": [
-        [
-          "node",
-          "2379476285"
-        ]
-      ],
-      "type": "service"
     },
     {
       "floor": 1,
@@ -9304,7 +9287,7 @@
         60.184712,
         24.827668
       ],
-      "name": "Robert's Coffee",
+      "name": "Baked by Eli",
       "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-18:00; PH off",
       "osm_elements": [
         [
@@ -9324,8 +9307,8 @@
         60.184595,
         24.827675
       ],
-      "name": "Aaltopahvi",
-      "opening_hours": "Mo 10:00-18:00; Tu-Th 10:00-17:00; PH 10:00-15:00",
+      "name": "Pahvi",
+      "opening_hours": "Mo 10:00-18:00; Tu-Th 10:00-17:00; PH 10:00-15:00; Fr 10:00-15:00",
       "osm_elements": [
         [
           "node",
@@ -9954,6 +9937,7 @@
       ],
       "name": "Otaniemen kappeli",
       "name_en": "Otaniemi Chapel",
+      "name_sv": "Otn\u00e4s kapell",
       "osm_elements": [
         [
           "way",
@@ -16230,7 +16214,7 @@
     {
       "id": "agrid-D",
       "latlon": [
-        60.189021,
+        60.189022,
         24.831075
       ],
       "name": "D",
@@ -16344,8 +16328,8 @@
     {
       "id": "agrid-ES",
       "latlon": [
-        60.188917,
-        24.831375
+        60.188916,
+        24.831376
       ],
       "name": "ES",
       "name_en": "ES wing (A Grid)",
@@ -17406,7 +17390,7 @@
       "id": "abloc-A",
       "latlon": [
         60.184668,
-        24.826063
+        24.826062
       ],
       "name": "A wing Abloc",
       "osm_elements": [
@@ -20200,6 +20184,29 @@
     },
     {
       "aliases": [
+        "1501"
+      ],
+      "floor": 1,
+      "id": "kide-1501",
+      "latlon": [
+        60.186814,
+        24.823157
+      ],
+      "name": "1501: Sklodowska-Curie",
+      "osm_elements": [
+        [
+          "node",
+          "11912139483"
+        ]
+      ],
+      "parents": [
+        "kide"
+      ],
+      "ref": "1501",
+      "type": "room"
+    },
+    {
+      "aliases": [
         "1522"
       ],
       "floor": 1,
@@ -20220,6 +20227,29 @@
         "tuas-x5xxwing"
       ],
       "ref": "1522",
+      "type": "room"
+    },
+    {
+      "aliases": [
+        "1572"
+      ],
+      "floor": 1,
+      "id": "kide-1572",
+      "latlon": [
+        60.186603,
+        24.823121
+      ],
+      "name": "1572: Noether",
+      "osm_elements": [
+        [
+          "node",
+          "11912139482"
+        ]
+      ],
+      "parents": [
+        "kide"
+      ],
+      "ref": "1572",
       "type": "room"
     },
     {
@@ -20751,6 +20781,29 @@
       "parents": [
         "T",
         "r030-awing"
+      ],
+      "ref": "A133",
+      "type": "room"
+    },
+    {
+      "aliases": [
+        "A133"
+      ],
+      "floor": 1,
+      "id": "kide-A133",
+      "latlon": [
+        60.186562,
+        24.823341
+      ],
+      "name": "A133: T5",
+      "osm_elements": [
+        [
+          "node",
+          "11912139481"
+        ]
+      ],
+      "parents": [
+        "kide"
       ],
       "ref": "A133",
       "type": "room"
@@ -22922,44 +22975,6 @@
       "type": "entrance"
     },
     {
-      "id": "K3-ent-10766856281",
-      "latlon": [
-        60.187832,
-        24.824702
-      ],
-      "name": "Entrance",
-      "nosearch": true,
-      "osm_elements": [
-        [
-          "node",
-          "10766856281"
-        ]
-      ],
-      "parents": [
-        "K3"
-      ],
-      "type": "entrance"
-    },
-    {
-      "id": "K3-ent-10766856283",
-      "latlon": [
-        60.187838,
-        24.824478
-      ],
-      "name": "Entrance",
-      "nosearch": true,
-      "osm_elements": [
-        [
-          "node",
-          "10766856283"
-        ]
-      ],
-      "parents": [
-        "K3"
-      ],
-      "type": "entrance"
-    },
-    {
       "id": "K1-ent-338534555",
       "latlon": [
         60.187271,
@@ -23577,6 +23592,25 @@
       "type": "entrance"
     },
     {
+      "id": "domusgadium-ent-11762183814",
+      "latlon": [
+        60.169373,
+        24.922304
+      ],
+      "name": "Entrance",
+      "nosearch": true,
+      "osm_elements": [
+        [
+          "node",
+          "11762183814"
+        ]
+      ],
+      "parents": [
+        "domusgadium"
+      ],
+      "type": "entrance"
+    },
+    {
       "id": "domusgadium-ent-317741521",
       "latlon": [
         60.169444,
@@ -23830,8 +23864,8 @@
     {
       "id": "kirjasto-ent-301814925",
       "latlon": [
-        60.184607,
-        24.827881
+        60.184603,
+        24.827889
       ],
       "name": "Entrance (main) \u267f",
       "nosearch": true,
@@ -24019,6 +24053,25 @@
       "type": "entrance"
     },
     {
+      "id": "K3-ent-A",
+      "latlon": [
+        60.187838,
+        24.824478
+      ],
+      "name": "Entrance A (main)",
+      "nosearch": true,
+      "osm_elements": [
+        [
+          "node",
+          "10766856283"
+        ]
+      ],
+      "parents": [
+        "K3"
+      ],
+      "type": "entrance"
+    },
+    {
       "id": "r009-ent-A",
       "latlon": [
         60.187034,
@@ -24081,7 +24134,7 @@
         60.186776,
         24.822108
       ],
-      "name": "Entrance A (main) \u267f",
+      "name": "Entrance A (main)",
       "nosearch": true,
       "osm_elements": [
         [

@@ -4929,9 +4929,10 @@
         "r030-cwing",
         "T5",
         "T6",
-        "T7",
-        "T4",
+        "T-A140",
         "T2",
+        "T7",
+        "T-C106.2",
         "T1",
         "T3",
         "paniikki",
@@ -7221,8 +7222,8 @@
         "ELEC",
         "SCI",
         "kide-1501",
+        "kide-1571",
         "kide-1572",
-        "kide-A133",
         "kide-ent-10238806258"
       ],
       "entrances": [
@@ -20231,19 +20232,42 @@
     },
     {
       "aliases": [
+        "1571"
+      ],
+      "floor": 1,
+      "id": "kide-1571",
+      "latlon": [
+        60.186603,
+        24.823121
+      ],
+      "name": "1571: Meitner",
+      "osm_elements": [
+        [
+          "node",
+          "11912139482"
+        ]
+      ],
+      "parents": [
+        "kide"
+      ],
+      "ref": "1571",
+      "type": "room"
+    },
+    {
+      "aliases": [
         "1572"
       ],
       "floor": 1,
       "id": "kide-1572",
       "latlon": [
-        60.186603,
-        24.823121
+        60.186562,
+        24.823341
       ],
       "name": "1572: Noether",
       "osm_elements": [
         [
           "node",
-          "11912139482"
+          "11912139481"
         ]
       ],
       "parents": [
@@ -20787,29 +20811,6 @@
     },
     {
       "aliases": [
-        "A133"
-      ],
-      "floor": 1,
-      "id": "kide-A133",
-      "latlon": [
-        60.186562,
-        24.823341
-      ],
-      "name": "A133: T5",
-      "osm_elements": [
-        [
-          "node",
-          "11912139481"
-        ]
-      ],
-      "parents": [
-        "kide"
-      ],
-      "ref": "A133",
-      "type": "room"
-    },
-    {
-      "aliases": [
         "A136"
       ],
       "floor": 1,
@@ -20837,12 +20838,12 @@
         "A140"
       ],
       "floor": 1,
-      "id": "T7",
+      "id": "T-A140",
       "latlon": [
         60.186912,
         24.820765
       ],
-      "name": "A140: T7",
+      "name": "A140: T4",
       "osm_elements": [
         [
           "node",
@@ -20902,30 +20903,6 @@
         "agrid-A"
       ],
       "ref": "A208d",
-      "type": "room"
-    },
-    {
-      "aliases": [
-        "A238"
-      ],
-      "floor": 2,
-      "id": "T4",
-      "latlon": [
-        60.186891,
-        24.820996
-      ],
-      "name": "A238: T4",
-      "osm_elements": [
-        [
-          "node",
-          "5104046534"
-        ]
-      ],
-      "parents": [
-        "T",
-        "r030-awing"
-      ],
-      "ref": "A238",
       "type": "room"
     },
     {
@@ -21135,6 +21112,54 @@
         "r030-awing"
       ],
       "ref": "C105",
+      "type": "room"
+    },
+    {
+      "aliases": [
+        "C106.1"
+      ],
+      "floor": 1,
+      "id": "T7",
+      "latlon": [
+        60.18693,
+        24.822185
+      ],
+      "name": "C106.1: T7",
+      "osm_elements": [
+        [
+          "node",
+          "11912162009"
+        ]
+      ],
+      "parents": [
+        "T",
+        "r030-cwing"
+      ],
+      "ref": "C106.1",
+      "type": "room"
+    },
+    {
+      "aliases": [
+        "C106.2"
+      ],
+      "floor": 1,
+      "id": "T-C106.2",
+      "latlon": [
+        60.186909,
+        24.822368
+      ],
+      "name": "C106.2: T8",
+      "osm_elements": [
+        [
+          "node",
+          "11912162008"
+        ]
+      ],
+      "parents": [
+        "T",
+        "r030-cwing"
+      ],
+      "ref": "C106.2",
       "type": "room"
     },
     {
@@ -24608,7 +24633,6 @@
     }
   ],
   "redirects": {
-    "cs-A238": "T4",
     "cs-C105": "T2"
   },
   "search": []

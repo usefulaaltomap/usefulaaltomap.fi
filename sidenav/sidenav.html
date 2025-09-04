@@ -1,0 +1,75 @@
+<md-sidenav
+  class="md-sidenav-left"
+  style="z-index:1000"
+  md-component-id="left"
+  md-whiteframe="4">
+  <div>
+    <md-toolbar>
+      <h1 class="md-toolbar-tools">{{get_lang(object, 'name')}}</h1>
+    </md-toolbar>
+    <md-content layout-padding>
+      <div>
+      <span ng-show="name_fi"><b>FI:</b> {{name_fi}}<br></span>
+      <span ng-show="name_en"><b>EN:</b> {{name_en}}<br></span>
+      <span ng-show="name_sv"><b>SV:</b> {{name_sv}}<br></span>
+      <span ng-show="object.address"><b>Address:</b> {{object.address}}<br></span>
+      <span ng-show="object.opening_hours"><b>Open:</b> {{object.opening_hours}}<br></span>
+      <span ng-show="getURL(object)"><b>Site:</b> <a href="{{getURL(object)}}">{{getURL(object)}}</a><br></span>
+      <span ng-show="object.floor"><b>Floor:</b> {{ object.floor }}<br></span>
+      <span ng-show="object.ref"><b>Room:</b> {{ object.ref }}<br></span>
+      <span ng-show="object.access"><b>Access:</b> {{ object.access }}<br></span>
+      </div>
+      <div ng-show="object.aliases && object.aliases.length">
+        <b>Aliases:</b> <span ng-repeat="a in object.aliases track by $index">{{a}}{{$last ? '' : ', '}}</span>
+      </div>
+      <div style="font-size: 75%"  ng-show="object.note">
+        <b>Note:</b> <span>{{get_lang(object, 'note')}}</span>
+      </div>
+      <div style="font-size: 75%"  ng-show="selectContains(object).length > 0">
+        <b>Contains:</b>
+        <div ng-repeat="c in selectContains(object)">
+          - <a ui-sref="app.selectedObject({objectId: c})">{{get_lang(objects[c], 'name')}}</a> ({{objects[c].type}})
+        </div>
+      </div>
+      <div style="font-size: 75%"  ng-show="selectContainsPartOf(object).length > 0">
+        <b>Contains part of:</b>
+        <div ng-repeat="c in selectContainsPartOf(object)">
+          - <a ui-sref="app.selectedObject({objectId: c})">{{get_lang(objects[c], 'name')}}</a> ({{objects[c].type}})
+        </div>
+      </div>
+      <div style="font-size: 75%" ng-show="selectContainedIn(object).length > 0">
+        <b>Contained in:</b>
+        <div ng-repeat="p in selectContainedIn(object)">
+          - <a ui-sref="app.selectedObject({objectId: p})">{{get_lang(objects[p], 'name')}}</a> ({{objects[p].type}})
+        </div>
+      </div>
+      <div style="font-size: 75%" ng-show="selectPartOf(object).length > 0">
+        <b>Part of:</b>
+        <div ng-repeat="p in selectPartOf(object)">
+          - <a ui-sref="app.selectedObject({objectId: p})">{{get_lang(objects[p], 'name')}}</a> ({{objects[p].type}})
+        </div>
+      </div>
+      <div style="font-size: 75%" ng-show="object.lore">
+        <b>Lore:</b> <span>{{get_lang(object, 'lore')}}</span>
+      </div>
+      <div ng-show="object.latlon" style="font-size: 75%"><b>Directions</b>:
+	<a href="https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B{{ object.latlon[0] }}%2C{{ object.latlon[1] }}">OpenStreetMap (Foot/bike/car)</a>,
+	<a href="https://www.reittiopas.fi/reitti/Aalto-yliopiston%20metroasema%2C%20Espoo%3A%3A60.1846%2C24.82554/{{ get_lang(object, 'name') }}%3A%3A{{ object.latlon[0] }}%2C{{ object.latlon[1] }}">Public Transit (HSL)</a>,
+	<!-- <a href="https://www.reittiopas.fi/reitti/%20/{{ Math.floor(object.latlon[0]*100000) }}%2C{{ Math.floor(object.latlon[1]*100000) }}">Bike (HSL)</a>, -->
+	<a href="https://www.google.fi/maps/dir//{{ object.latlon[0] }},{{ object.latlon[1] }}/">Google</a>
+      </div>
+      <!-- Bottom -->
+      <div style="font-size: 50%; vertical-align: bottom;">
+      <hr>
+      <div>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnzjS_3o4NeU1tzmpZ6CBn-pDRH9L1gyVB3cWA9WHEMim3Vg/viewform?usp=pp_url&entry.680957649={{object.id}}&entry.1500670776={{get_lang(object, 'name')}}">Submit new data or correction</a>
+      </div>
+      <div ng-show="object.osm_elements">
+        <b>OSM objects:</b> <span ng-repeat="c in object.osm_elements"><a href="https://www.openstreetmap.org/{{c[0]}}/{{c[1]}}">{{c[1]}}</a> </span>
+      </div>
+      <div>Useful Aalto Map is an open source project to help make the Aalto campus more navigable.  Please help us by collecting data (use the links above) or help with programming or design. See our <a href="https://github.com/usefulaaltomapfi/usefulaaltomap/wiki">Github project</a> for more info.</div>
+      <div>Language: <a href="javascript:set_lang('en')">EN</a> <a href="javascript:set_lang('fi')">FI</a> <a href="javascript:set_lang('sv')">SV</a></div>
+      </div>
+    </md-content>
+  </div>
+</md-sidenav>
